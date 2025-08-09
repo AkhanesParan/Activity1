@@ -1,9 +1,9 @@
-package system;
+package system_sys;
 
 import java.util.Scanner;
-import banking.bankingClass;
+import bank.banking;
 
-public class system {
+public class System_v1 {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -20,7 +20,7 @@ public class system {
         switch(choice){
             case 1:
        
-                bankingClass bc = new bankingClass();
+                banking bc = new banking();
                 
                 System.out.println("Enter your Account No: ");
                 int accountNo = sc.nextInt();
